@@ -1,0 +1,107 @@
+body {
+  width: auto;
+  height: auto;
+}
+.App {
+  text-align: center;
+  min-height: 500px;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.clearWeather {
+  background-image: url("./images/clear1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.foggyWeather {
+  background-image: url("./images/fog.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cloudyWeather {
+  background-image: url("./images/cloudy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.drizzleWeather {
+  background-image: url("./images/drizzle.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.rainyWeather {
+  background-image: url("./images/rain.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.snowyWeather {
+  background-image: url("./images/snow.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.thunderstormWeather {
+  background-image: url("./images/thunderstorm.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+.active {
+  color: red !important;
+}
+
+.link {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  background: transparent;
+  font-size: inherit;
+}
